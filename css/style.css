@@ -13,6 +13,12 @@ body{
     box-shadow: none;
 }
 
+.btn-login{
+    background-color: #E77C40;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
 .btn-general{
     padding: 10px 30px;
     border-radius: 5px;

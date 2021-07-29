@@ -202,6 +202,11 @@ body{
     padding-left: 10px;
 }
 
+.footer-text{
+    color: #ffffff;
+    margin: 0;
+}
+
 /* medium devices */
 
 @media (max-width:768px){

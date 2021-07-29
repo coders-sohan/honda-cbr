@@ -117,6 +117,10 @@ body{
 
 /* latest news style */
 
+.news-sec{
+    background-color: #f5f5f5;
+}
+
 .bikes-card{
     padding: 20px;
     border-radius: 10px;
@@ -202,6 +206,12 @@ body{
 .faq-header{
     font-size: 20px;
     font-weight: 600;
+}
+
+/* pricing style*/
+
+.pricing-sec{
+    background-color: #f5f5f5;
 }
 
 /* footer style */

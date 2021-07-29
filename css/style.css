@@ -15,10 +15,21 @@ body{
 
 .btn-general{
     padding: 10px 30px;
-    background-color: #E76F51;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.btn-general,
+.btn-outline-orange:hover{
+    background-color: #E76F51;
     color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.btn-outline-orange{
+    border: 1px solid #E76F51;
+    background-color: #ffffff;
+    color: #E76F51;
 }
 
 .btn-general:hover{
@@ -37,6 +48,14 @@ body{
 .btn-orange:hover{
     background-color: #cc6247;
     color: #ffffff;
+}
+
+.border-orange{
+    border-color: #E77C40;
+}
+
+.bg-orange{
+    background-color: #E77C40;
 }
 
 .section-heading{

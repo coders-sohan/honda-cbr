@@ -106,14 +106,100 @@ body{
 .news-header{
     font-weight: 600;
     color: #18191F;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .news-desc{
     text-align: justify;
     color: #6C6C6C;
     font-size: 15px;
+}
+
+/* clients style */
+
+.clients-card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+}
+
+.clients-img{
+    display: block;
+    margin: 0 auto;
+    width: 149px;
+}
+
+.clients-desc{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 15px;
+}
+
+.clients-icons{
+    color: #E77C40;
+    margin-bottom: 15px;
+}
+
+.clients-name{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.clients-position{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0A0826;
+}
+
+/* faq style */
+
+.faq-img{
+    width: 424.8px;
+}
+
+.faq-item{
+    border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #ffffff;
+    color: #18191F;
+    font-weight: 600;
+}
+
+.faq-body p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+
+.faq-header{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer style */
+
+.footer-sec{
+    background-color: #0A0826;
+}
+
+.footer-list-item a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-copyright{
+    color: #ffffff;
+    padding-left: 10px;
 }
 
 /* medium devices */
